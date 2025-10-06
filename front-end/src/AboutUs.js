@@ -23,7 +23,7 @@ export default function AboutUs() {
   return (
     <main style={{ maxWidth: 900, margin: "2rem auto", padding: "0 1rem" }}>
       <h1>{data.title}</h1>
-      <img src="http://localhost:7002/laura.jpg"
+      <img src={data.imgURL}
         alt="Laura"
         style={{
         width: "250%",

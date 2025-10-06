@@ -90,7 +90,8 @@ app.get('/api/about', (req, res) =>{
       "I led an augmented-reality accessibility project called Elegant Gathering in the Apricot Garden, created with two NYU Museum Studies graduate students. We built a mobile WebAR experience using 8th Wall and A-Frame that recognizes segments of a Ming Dynasty handscroll and lets visitors explore a dozen+ historical objects at true scale.",
       "I designed a Vue.js + HTML/CSS interface layered on the AR view, with tap-triggered hotspots that reveal text, images, and model toggles. I added gesture controls and visibility toggles (tap-hotspot, tap-close, recenter) so people can move smoothly between physical interaction and digital augmentation.",
       "To support blind and low-vision visitors, I fabricated a full-scale tactile replica using Swell-Form paper, layered textures, and Braille labels. I also captured and cleaned artifact 3D models in Blender, optimizing glb assets for low-latency rendering and accurate real-world scaling in the AR interface."
-    ]
+    ],
+    imgURL:"http://localhost:7002/laura.jpg"
   })
 }
 );
